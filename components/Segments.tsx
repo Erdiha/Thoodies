@@ -20,8 +20,8 @@ function Segments({ extendNavBar, setExtendNavBar }: boolean | any) {
 						className='top-0 bottom-0 md:w-[200%] xl:w-[250%] bg-gradient-to-r from-yellow-400 to-transparent p-4 
                     justify-center items-center flex absolute left-0 '>
 						<p className='uppercase relative md:text-2xl text-black font-medium z-[100] bg-white/60 p-2 md:leading-[2rem]'>
-							Search dishes from any Cuisine with vegan and vegeterian options.
-							For any taste or diet restrictions.
+							Search dishes of any cuisine including vegan and vegeterian options.
+							For any taste or diet restriction.
 							<button
 								onClick={() => {
 									setExtendNavBar(true);
@@ -44,7 +44,7 @@ function Segments({ extendNavBar, setExtendNavBar }: boolean | any) {
 						className='top-0 bottom-0 md:w-[200%] xl:w-[250%] bg-gradient-to-l from-yellow-400 to-transparent p-4 
                     justify-center items-center flex absolute right-0 '>
 						<p className=' text-end uppercase relative md:text-2xl text-black font-medium z-[100] bg-white/80 p-2 md:leading-[2rem]'>
-							Thousands of ingredients search from, with detailed nutrition
+							Search based on thousands of ingredients, with detailed nutrition
 							information and calories.
 							<button
 								onClick={() => {
@@ -68,7 +68,7 @@ function Segments({ extendNavBar, setExtendNavBar }: boolean | any) {
 						className='top-0 bottom-0 md:w-[200%] xl:w-[250%] bg-gradient-to-r from-yellow-400 to-transparent p-4 
                     justify-center items-center flex absolute left-0 '>
 						<p className='uppercase relative md:text-2xl text-black font-medium z-[100] bg-white/60 p-2 md:leading-[2rem]'>
-							simple, straight-forward instruction for frustration-free,
+							Simple, straight-forward instructions for a frustration-free,
 							enjoyable cooking experience.
 							<button
 								onClick={() => {

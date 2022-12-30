@@ -1,17 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { useRecoilState } from 'recoil';
 import { displayModalAtom, modalRecipeCardAtom } from '../recoilAtom';
-import RecipeModal from './RecipeModal';
 import { AiFillLike, AiFillDislike } from 'react-icons/ai';
 import { TiTick, TiPlus } from 'react-icons/ti';
-import { IRecipe } from '../types.d';
 import useAuth from '../firebaseData';
 import {
-	DocumentData,
-	collection,
 	deleteDoc,
 	doc,
-	onSnapshot,
 	setDoc,
 } from 'firebase/firestore';
 import { db } from '../firebaseAuth';
@@ -111,8 +106,7 @@ function Cards(card: any) {
 		setGetCardInfo(card?.card);
 	}, []);
 	return (
-		<div
-			className='card w-80 min-h-[30rem] duration-400 ease-in transition-all p-2
+		<div className='card w-80 min-h-[30rem] duration-400 ease-in transition-all p-2
     md:hover:bg-yellow-100 overflow-x-hidden glass md:hover:shadow-2xl z-[100]'>
 			<span
 				className='absolute font-bold text-black bg-yellow-200 top-6 left-6 p-2

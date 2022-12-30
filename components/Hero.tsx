@@ -91,15 +91,15 @@ const Hero = ({ extendNavBar, setSearchTerms, searchTerms }: any) => {
 						className='flex md:text-4xl mt-[6rem] md:mt-[15rem] font-bold p-4 flex-col shadow-2xl text-xl  
 				bg-black/60  md:w-[50%] md:shadow-black  md:mx-0 w-[98%] z-[200] '>
 						<h1 className='hero-paragraph pb-2 py-2 '>
-							SEARCH FOR 1000&rsquo;S OF RECIPES
+							SEARCH FOR THOUSANDS OF RECIPES
 						</h1>
 						<hr />
 						<h2 className=' italic text-[1rem]  md:text-xl font-semibold py-2'>
-							For simplicity and efficiency.{' '}
+							With simplicity and efficiency.{' '}
 						</h2>
 
 						<h3 className=' italic text-[0.9rem]  md:text-xl font-semibold '>
-							Search for a recipe without pages of personal stories
+							Just recipes. No filler.
 						</h3>
 					</div>
 				)}

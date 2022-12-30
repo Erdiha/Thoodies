@@ -90,9 +90,9 @@ function Search({ extendNavBar, setSearchTerms, searchTerms }: any) {
 					className={`search-div ${formNames[0]} flex flex-col  shadow-md shadow-yellow-400 justify-around min-h-[15rem]  overflow-x-hidden  md:w-[30rem] duration-700 transition-all ease-in-out w-[95vw] px-6  md:min-w-[35rem]`}>
 					<div>
 						<label
-							className='font-light italic flex pb-2 '
+							className='font-light italic flex pb-2 text-[17px] md:text-2xl '
 							htmlFor='search input'>
-							{formLabels[0]}
+							Search dish, ingredients, cuisine, etc. 
 						</label>
 						<div className=' flex flex-row  justify-center items-center   min-w-full relative'>
 							<input

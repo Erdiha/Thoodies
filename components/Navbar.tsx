@@ -31,11 +31,11 @@ function Navbar({ extendNavBar, setExtendNavBar }: boolean | any) {
 						/>
 					</Link>
 				</div>
-				<div className='grid h-[80%] p-2 justify-center items-center z-50 col-span-3  md:col-span-1  '>
+				<div className='grid h-[80%] p-1 justify-center items-center z-50 col-span-3  md:col-span-1  '>
 					<button
 						id='search-btn'
 						onClick={() => setExtendNavBar((prev: boolean) => !prev)}
-						className='flex flex-row gap-2 justify-center items-center w-[8rem] rounded-full border-[1px] default-animation hover:bg-stone-50 hover:text-black hover:translate-y-1 p-2 border-white '>
+						className='flex flex-row gap-2 justify-center items-center w-[6rem] md:w-[8rem] rounded-full border-[1px] default-animation hover:bg-stone-50 hover:text-black md:hover:translate-y-1 p-1 md:p-2 border-white '>
 						{extendNavBar ? (
 							<button className='w-[50%] text-black/90 font-bold text-[15px]'>
 								CLOSE
