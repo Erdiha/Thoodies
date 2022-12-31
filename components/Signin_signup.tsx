@@ -68,7 +68,7 @@ function Signin_signup() {
 					</span>
 				</div>
 			</form>
-			<div className=' items z-10 center m-5 flex flex-col items-center justify-center gap-4  text-slate-900'>
+			<div className=' items z-10 center m-3 flex flex-col items-center justify-center gap-4  text-slate-900'>
 				{' '}
 				<p className='text-[20px]'>OR</p>
 				<form action='' className='z-50' onSubmit={handleSubmit(onSubmit)}>
@@ -78,8 +78,7 @@ function Signin_signup() {
 							setDemo(true);
 							setUserLogin(true);
 						}}
-						className='  h-10 w-20 cursor-pointer
-            border-b-2 border-yellow-400 md:hover:scale-105 default-animation
+						className='h-10 w-20 cursor-pointer border-b-2 border-yellow-400 md:hover:scale-105 default-animation
              rounded-md bg-black/20 font-semibold text-xl'>
 						Demo
 					</button>

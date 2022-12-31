@@ -16,10 +16,10 @@ function Navbar({ extendNavBar, setExtendNavBar }: boolean | any) {
 			<div
 				id='navbar-wrapper'
 				className=' justify-center items-center h-[9rem] md:h-[11rem] after:md:h-[11rem] grid grid-cols-3  w-[100%] z-[1000]  overflow-x-hidden after:h-[9rem] fixed  text-white navbar-wrapper  '>
-				<div className='w-[5rem]   aspect-square justify-center items-center flex m-auto  text-center col-span-3 md:col-span-1'>
+				<div className='max-w-[3rem]  md:text-2xl aspect-square justify-center items-center flex m-auto  text-center col-span-3 md:col-span-1'>
 					<Link
 						href='/'
-						className='flex  relative icon-text text-2xl font-bold min-h-[4rem]  md:max-h-[6rem] aspect-square justify-center items-center'>
+						className='flex  relative icon-text  font-bold min-h-[3rem]  md:max-h-[6rem] aspect-square justify-center items-center'>
 						THOODIES
 						<Image
 							className='opacity-100 -z-10'

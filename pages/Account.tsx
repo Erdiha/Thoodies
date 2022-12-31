@@ -39,8 +39,8 @@ function Account() {
 			<div className='w-full bg-gray-100  flex flex-col justify-center items-center relative min-h-[90vh]'>
 				{loggedOut && !currentUser ? (
 					<div className='w-full  flex flex-col justify-center items-center'>
-						<h1 className='flex justify-center  w-[80%] md:w-[50%] text-2xl p-8'>
-							To save and like recipes please Sign up/Sign in.
+						<h1 className='flex justify-center  max-w-[15rem] md:max-w-[21rem]  text-2xl py-8'>
+							Sign up To Save Your Favorite Recipes.
 						</h1>
 						<Signin_signup />
 					</div>
