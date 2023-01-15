@@ -98,7 +98,7 @@ function Home() {
 	return (
 		<div className='relative'>
 			<Head>
-				<title>THOOD</title>
+				<title>THOODIES</title>
 				<link rel='icon' href='/dish.png' />
 				<meta name='viewport' content='initial-scale=1.0, width=device-width' />
 			</Head>
