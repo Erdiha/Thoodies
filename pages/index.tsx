@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useRecoilState } from 'recoil';
 import Hero from '../components/Hero';
 import Navbar from '../components/Navbar';
@@ -95,7 +95,6 @@ function Home() {
 			setRecipeData([]);
 		}
 	}, [searchTerms]);
-	console.log('loading', loading);
 	return (
 		<div className='relative'>
 			<Head>

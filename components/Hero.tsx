@@ -109,5 +109,3 @@ const Hero = ({ extendNavBar, setSearchTerms, searchTerms }: any) => {
 };
 
 export default Hero;
-
-//api = "563492ad6f91700001000001293179f70c2145cfb2c4be47d3fbd501"
